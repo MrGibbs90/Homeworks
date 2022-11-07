@@ -68,7 +68,7 @@ public class Main {
 
         totalEmployees = totalEmployees + 94;
         totalWorkingHours = totalEmployees * hoursPerDay;
-        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + totalWorkingHours + " часов работы может быть поделено между сотрудниками" );
+        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + totalWorkingHours + " часов работы может быть поделено между сотрудниками");
 
 // Задача 1
         System.out.println("Задача 1");
@@ -78,11 +78,11 @@ public class Main {
         System.out.println("Куркума " + turmeric);
         short zira = 25000;
         System.out.println("Зира " + zira);
-long paprika = 7500000;
+        long paprika = 7500000;
         System.out.println("Паприка " + paprika);
-float garlic = 2.3585f;
+        float garlic = 2.3585f;
         System.out.println("Чеснок " + garlic);
-double rosemary = 105.525d;
+        double rosemary = 105.525d;
         System.out.println("Розмарин " + rosemary);
 
         // Задача 2
@@ -93,7 +93,7 @@ double rosemary = 105.525d;
         System.out.println("Кайенский перец " + cayennePepper);
         float coriander = 2.786f;
         System.out.println("Кориандр " + coriander);
-            short anise = 569;
+        short anise = 569;
         System.out.println("Анис " + anise);
         short barberry = -159;
         System.out.println("Барбарис " + barberry);
@@ -123,11 +123,11 @@ double rosemary = 105.525d;
         int bottle1 = bottles * time1 / time;
         System.out.println("За " + time1 + " минут машина произвела бутылок " + bottle1 + " штук");
         int bottle2 = bottles * time2 / time;
-        System.out.println("За "+ time2 + " минут машина произвела бутылок " + bottle2 + " штук");
+        System.out.println("За " + time2 + " минут машина произвела бутылок " + bottle2 + " штук");
         int bottle3 = bottles * time3 / time;
-        System.out.println("За "+ time3 + " минут машина произвела бутылок " + bottle3 + " штук");
+        System.out.println("За " + time3 + " минут машина произвела бутылок " + bottle3 + " штук");
         int bottle4 = bottles * time4 / time;
-        System.out.println("За "+ time4 + " минут машина произвела бутылок " + bottle4 + " штук");
+        System.out.println("За " + time4 + " минут машина произвела бутылок " + bottle4 + " штук");
 
         // Задача 5
         System.out.println("Задача 5");
@@ -159,30 +159,30 @@ double rosemary = 105.525d;
         byte loseWeight = 7;
         float weightLosePerDay1 = 0.25f;
         float weightLosePerDay2 = 0.5f;
-float daysLoseWeight1 = loseWeight / weightLosePerDay1;
+        float daysLoseWeight1 = loseWeight / weightLosePerDay1;
         System.out.println("Если спортсмен будет терять по " + weightLosePerDay1 + " кг в день, то он достигнет нужного веса за " + daysLoseWeight1 + " дней");
         float daysLoseWeight2 = loseWeight / weightLosePerDay2;
         System.out.println("Если спортсмен будет терять по " + weightLosePerDay2 + " кг в день, то он достигнет нужного веса за " + daysLoseWeight2 + " дней");
-        float daysOnAverage = (daysLoseWeight2 + daysLoseWeight1) /2;
+        float daysOnAverage = (daysLoseWeight2 + daysLoseWeight1) / 2;
         System.out.println("Чтобы добиться результата похудения, потребуется " + daysOnAverage + " день");
 
         // Задача 8
         System.out.println("Задача 8");
-int salaryMasha = 67760;
-int salaryDenis = 83690;
-int salaryKristina = 76230;
-double salaryAfterIncreaseMasha = salaryMasha * 1.1;
-double salaryAfterIncreaseDenis = salaryDenis * 1.1;
-double salaryAfterIncreaseKristina = salaryKristina * 1.1;
-int annualSalaryMashaBefore = salaryMasha * 12;
-int annualSalaryDenisBefore = salaryDenis * 12;
-int annualSalaryKristinaBefore = salaryKristina * 12;
-double annualSalaryMashaAfter = salaryAfterIncreaseMasha * 12;
-double annualSalaryDenisAfter = salaryAfterIncreaseDenis * 12;
-double annualSalaryKristinaAfter = salaryAfterIncreaseKristina * 12;
-double salaryDifferenceMasha = annualSalaryMashaAfter - annualSalaryMashaBefore;
-double salaryDifferenceDenis = annualSalaryDenisAfter - annualSalaryDenisBefore;
-double salaryDifferenceKristina = annualSalaryKristinaAfter - annualSalaryKristinaBefore;
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+        double salaryAfterIncreaseMasha = salaryMasha * 1.1;
+        double salaryAfterIncreaseDenis = salaryDenis * 1.1;
+        double salaryAfterIncreaseKristina = salaryKristina * 1.1;
+        int annualSalaryMashaBefore = salaryMasha * 12;
+        int annualSalaryDenisBefore = salaryDenis * 12;
+        int annualSalaryKristinaBefore = salaryKristina * 12;
+        double annualSalaryMashaAfter = salaryAfterIncreaseMasha * 12;
+        double annualSalaryDenisAfter = salaryAfterIncreaseDenis * 12;
+        double annualSalaryKristinaAfter = salaryAfterIncreaseKristina * 12;
+        double salaryDifferenceMasha = annualSalaryMashaAfter - annualSalaryMashaBefore;
+        double salaryDifferenceDenis = annualSalaryDenisAfter - annualSalaryDenisBefore;
+        double salaryDifferenceKristina = annualSalaryKristinaAfter - annualSalaryKristinaBefore;
         System.out.println("Маша теперь получает " + salaryAfterIncreaseMasha + " рублей. " + " Годовой доход вырос на " + salaryDifferenceMasha + " рублей");
         System.out.println("Денис теперь получает " + salaryAfterIncreaseDenis + " рублей. " + " Годовой доход вырос на " + salaryDifferenceDenis + " рублей");
         System.out.println("Кристина теперь получает " + salaryAfterIncreaseKristina + " рублей. " + " Годовой доход вырос на " + salaryDifferenceKristina + " рублей");
@@ -442,7 +442,7 @@ double salaryDifferenceKristina = annualSalaryKristinaAfter - annualSalaryKristi
         System.out.println("Задача 7");
         int number = 1;
         System.out.print(number + " ");
-        for ( int i = 0; i < 9; i++) {
+        for (int i = 0; i < 9; i++) {
             number = number * 2;
             System.out.print(number + " ");
         }
@@ -465,22 +465,72 @@ double salaryDifferenceKristina = annualSalaryKristinaAfter - annualSalaryKristi
             sumWithPercent = (sumWithPercent + deposit) * (1 + percent);
             System.out.println("Месяц " + i + ", сумма накоплений равна " + sumWithPercent + " рублей");
         }
+// ДЗ 8
+        System.out.println("ДЗ 8");
+        // Задача 1
+        System.out.println("Задача 1");
+        int month = 0;
+        while (sum < 2_459_000) {
+            sum += deposit;
+            month = month + 1;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + sum + " рублей");
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        // Задача 2
+        System.out.println("Задача 2");
+        int w = 0;
+        while (w < 10) {
+            w++;
+            System.out.print(w + " ");
+        }
+        System.out.println();
+        int q = 0;
+        for (w = 10; w >= 1; w--) {
+            System.out.print(w + " ");
+        }
+        System.out.println();
+        // Задача 3
+        System.out.println("Задача 3");
+        int totalPopulation = 12_000_000;
+        int birthRate = 17 * totalPopulation / 1000;
+        int mortality = 8 * totalPopulation / 1000;
+        for (w = 1; w <= 10; w++) {
+            totalPopulation += birthRate;
+            totalPopulation -= mortality;
+            System.out.printf("Год %d , численность %d \n", w, totalPopulation);
+        }
+        // Задача 4, 5, 6
+        System.out.println("Задача 4, 5, 6");
+        int initialDeposit = 15_000;
+        int monthNum = 1;
+        while (initialDeposit <= 12_000_000) {
+            initialDeposit *= 1.07;
+            if (monthNum % 6 == 0) {
+                System.out.printf("месяц %d , сумма %d \n", monthNum, initialDeposit);
+            }
+            monthNum++;
+        }
+        // Задача 7
+        System.out.println("Задача 7");
+        int friday = 1;
+        for (int currentFriday = friday; currentFriday <= 31; currentFriday += 7) {
+            System.out.println("Сегодня пятница, " + currentFriday + "ое число. " + "Необходимо подготовить отчёт.");
+        }
+// Задача 8
+        System.out.println("Задача 8");
+        int currentYear = 2022;
+        int beginning = currentYear - 200;
+        int ending = currentYear + 100;
+        for (int i = beginning; i < ending; ++i) {
+            if (i % 79 == 0) {
+                System.out.println(i);
+            }
+        }
+// Задача 9
+        System.out.println("Задача 9");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("2 * " + i + "= " + 2 * i);
+        }
 
 
     }
