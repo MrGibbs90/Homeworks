@@ -187,6 +187,142 @@ double salaryDifferenceKristina = annualSalaryKristinaAfter - annualSalaryKristi
         System.out.println("Денис теперь получает " + salaryAfterIncreaseDenis + " рублей. " + " Годовой доход вырос на " + salaryDifferenceDenis + " рублей");
         System.out.println("Кристина теперь получает " + salaryAfterIncreaseKristina + " рублей. " + " Годовой доход вырос на " + salaryDifferenceKristina + " рублей");
 
+        // ДЗ 1
+        System.out.println("ДЗ 1");
+        // Задача 1
+        System.out.println("Задача 1");
+        int ageRoman = 32;
+        if (ageRoman >= 18) {
+            System.out.println("Роман, поздравляем с совершеннолетием");
+        }
+        if (ageRoman < 18) {
+            System.out.println("Извините Роман, возраст совершеннолетия ещё не наступил, нужно немного подождать");
+        }
+        // Задача 2
+        System.out.println("Задача 2");
+        int ageAdult = 21;
+        if (ageAdult >= 7 && ageAdult <= 18) {
+            System.out.println("Ребенок ходит в школу");
+        }
+        if (ageAdult >= 18 && ageAdult <= 24) {
+            System.out.println("Уже окончил школу и может отправляться в университет");
+        }
+        if (ageAdult >= 24) {
+            System.out.println("Уже окончил университет и пора искать первую работу");
+        }
+
+        // Задача 3
+        System.out.println("Задача 3");
+        byte carCapacity = 102;
+        byte seating = 60;
+        int standingPlaces = carCapacity - seating;
+        int seatingUsed = 60;
+        int standingPlacesUsed = 41;
+        if (seatingUsed < seating) {
+            System.out.println("Есть ещё " + (seating - seatingUsed) + " сидячих мест");
+        }
+        if (standingPlacesUsed < standingPlaces) {
+            System.out.println("Есть ещё " + (standingPlaces - standingPlacesUsed) + " стоячих мест");
+        }
+        if (seatingUsed == seating) {
+            System.out.println("Сидячих мест нет");
+        }
+        if (standingPlacesUsed == standingPlaces) {
+            System.out.println("Стоячих мест нет");
+        }
+        // ДЗ 2
+        System.out.println("ДЗ 2");
+// Задача 1
+        System.out.println("Задача 1");
+        int ageAnastasia = 25;
+        if (ageAnastasia >= 18) {
+            System.out.println("Анастасия, поздравляем с совершеннолетием");
+        } else {
+            System.out.println("Извините Анастасия, возраст совершеннолетия ещё не наступил, нужно немного подождать");
+        }
+        // Задача 2
+        System.out.println("Задача 2");
+        int ageChild = 9;
+        if (ageChild >= 7) {
+            System.out.println("Ребенок ходит в школу");
+        } else {
+            if (ageChild >= 18) {
+                System.out.println("Уже окончил школу и может отправляться в университет");
+            } else {
+                if (ageChild >= 24) {
+                    System.out.println("Уже окончил университет и пора искать первую работу");
+                }
+            }
+        }
+        // Задача 3
+        System.out.println("Задача 3");
+        byte carCapacity1 = 102;
+        byte seating1 = 60;
+        int standingPlaces1 = carCapacity1 - seating1;
+        byte peopleInCar1 = 53;
+        if (peopleInCar1 >= 102) {
+            System.out.println("Мест нет, вагон забит");
+        } else {
+            System.out.println("Места в вагоне есть, но не факт что сидячие");
+        }
+        if (peopleInCar1 >= 60) {
+            System.out.println("Сидячих мест нет");
+        } else {
+            System.out.println("Сидячие места есть");
+        }
+        if (peopleInCar1 >= standingPlaces1) {
+            System.out.println("Места в вагоне есть, но не факт что сидячие");
+        }
+        // ДЗ 3
+        System.out.println("ДЗ 3");
+        // Задача 1
+        System.out.println("Задача 1");
+        int age2 = 32;
+        if (age2 >= 2 && age2 <= 6) {
+            System.out.println("Если возраст человека равен " + age2 + " , то ему нужно ходить в детский сад");
+        } else {
+            if (age2 >= 7 && age2 <= 18) {
+                System.out.println("Если возраст человека равен " + age2 + " , то ему нужно ходить в школу");
+            } else {
+                if (age2 >= 18 && age2 <= 24) {
+                    System.out.println("Если возраст человека равен " + age2 + " , то ему нужно ходить в университет");
+                } else {
+                    if (age2 >= 24) {
+                        System.out.println("Если возраст человека равен " + age2 + " , то ему нужно ходить на работу");
+                    }
+                }
+            }
+        }
+        // Задача 2
+        System.out.println("Задача 2");
+        int age3 = 12;
+        if (age3 < 5) {
+            System.out.println("Если ребёнку " + age3 + " лет, то он не может кататься на атракционе");
+        } else {
+            if (age3 > 5 && age3 < 14) {
+                System.out.println("Если ребёнку " + age3 + " лет, то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+            } else {
+                if (age3 > 14) {
+                    System.out.println("Если ребёнку " + age3 + " лет, то он может кататься без сопровождения взрослого");
+                }
+            }
+        }
+        // Задача 3
+        System.out.println("Задача 3");
+        int one = 234;
+        int two = -5;
+        int three = 150;
+        if (one > two && one > three) {
+            System.out.println(one + " самое большее из трёх чисел");
+        } else {
+            if (two > one && two > three) {
+                System.out.println(two + " самое большее из трёх чисел");
+            } else {
+                if (three > one && three > two) {
+                    System.out.println(three + " самое большее из трёх чисел");
+                }
+            }
+        }
 
 
 
